@@ -1,0 +1,6 @@
+.DS_Store
+.project
+#phpstrom
+.idea
+#配置文件
+/ThinkPHP/Conf/convention.php
