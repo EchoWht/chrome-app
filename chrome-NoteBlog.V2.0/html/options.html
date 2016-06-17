@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>NoteBlog-选项</title>
+		<link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="header_logo">
+				<img class="logo_middle" src="../assets/images/icon128.png" />
+				<h2>NoteBlog</h2>
+			</div>
+			<div class="wapper">
+				<div class="main">
+					<h3>选项</h3>
+					<hr>
+					<div id="info"></div>
+					<div id="logged">
+						<span>已登录帐号：</span><span id="login_ok"></span><a href="#" id="loginout">（退出）</a>
+						<hr />
+					</div>
+					<form class="form-horizontal" id="signin">
+						<div class="form-group">
+							<label for="username" class="col-sm-2 control-label">用户名</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="username" name="username" placeholder="Username">
+							</div>
+						</div>
+						<hr />
+						<div class="form-group">
+							<label for="password" class="col-sm-2 control-label">密码</label>
+							<div class="col-sm-10">
+								<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+							</div>
+						</div>
+						<hr />
+						<div class="form-group">
+							<div class="col-sm-12">
+								<button type="button" id="login" class="btn btn-success">登录</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+				<div class="main"  align="center">
+					<div class="col-sm-4">
+						<a href="http://blskye.com/" target="_blank">查看NoteBlog</a>
+					</div>
+					<div class="col-sm-4">
+						<a href="http://blskye.com/index.php/Register/" target="_blank">注册</a>
+					</div>
+					<div class="col-sm-4">
+						<a href="">忘记密码？</a>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		<footer>
+			&copy; <span id="copy"></span> <a href="http://blskye.com/" target="_blank"> Blskye.com</a> by <a href="http://wht.blskye.com/" target="_blank">wht</a>
+		</footer>
+
+	<script src="../assets/bootstrap/js/jquery.min.js"></script>
+	<script src="../js/jquery.md5.js"></script>
+	<script src="../js/ajax.js"></script>
+	<script src="../js/func.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
