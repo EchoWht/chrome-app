@@ -1,0 +1,19 @@
+{
+   "browser_action": {
+      "default_icon": "g8up.cn.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_defaulttitle__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "g8up-cn.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqZ2k6aUGt0rL0w23fnGIO7uRy+5mgufnB31qmdaCSe8QDupqmpFY9z6+qE1nTGxMYONmBSUuNd1j80dDXqTN1qkiw1Bciz2kOtLmTGIER/sn5uuXQ1zNFSAzUjq8t2Ck12I7UYWyZkvL0RjUqlEgHHJvWtreuukyvIyS9di5sSwiqmKCTDqSMbV3laU+xN+dS9UELwPAqWlSc2ynRb5VjpPzkirYpSbujAok8qS2V48NVLdHGMUg+7WazXMD0ksetisOWBv/7GnJ5UBFulcJcij3lgpYC5OR5WSyKdd4rSqrivaYUbM0aly7d2oitebskmrEsz+ISyOBcdhB+uq7OwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_page": "option.html",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.0"
+}
